@@ -2,6 +2,9 @@
   "name": "fe12_bogutskii_ticket",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "12.18.4"
+  },
   "dependencies": {
     "@material-ui/core": "^4.11.4",
     "@material-ui/lab": "*",
