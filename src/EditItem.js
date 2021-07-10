@@ -29,14 +29,14 @@ function EditItem(props) {
             </div>}
 
             {openInput &&
-            <>
+            <div>
                 <input type="text" value={name} onChange={e => setName(e.target.value)}/>
                 <input type="text" value={description} onChange={e => setDescription(e.target.value)}/>
                 <input type="text" value={price} onChange={e => setPrice(e.target.value)}/>
 
 
-                <div color="primary" variant="outlined" onClick={saveButtonHandler}>Save</div>
-            </>
+                <button color="primary" variant="outlined" onClick={saveButtonHandler}>Save</button>
+            </div>
             }
         </div>
     )
